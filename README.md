@@ -1,6 +1,6 @@
 # 自动直播配置
 
-电视端直接用这个地址（复制粘贴到 TVBox 的「配置地址」里）：
+电视端直接用这个地址：
 
 ```
 http://raw.githubusercontent.com/jwqsir2-lang/tvbox-autolive/main/tvbox.json
@@ -9,7 +9,7 @@ http://raw.githubusercontent.com/jwqsir2-lang/tvbox-autolive/main/tvbox.json
 ## 说明
 
 - **78 个频道**（央视 12 / 卫视 36 / 新闻 / 体育 / 影视 / 纪录 / 少儿 / 音乐 / 三农），182 条线路
-- 所有播放地址都是 **http:// 明文流**，Android 4.x 老电视可用（暴风 TV40X 实测通过）
+- 所有播放地址都是 **http:// 明文流**，Android 4.x 老电视可用
 - 频道直接内嵌在配置里，打开直播**不需要联网下载列表**，秒开
 - GitHub Actions 每 6 小时自动重新生成一次（拉取 zbds + supprise 最新直播源）
 
